@@ -1,4 +1,5 @@
-FROM docker.elastic.co/beats/filebeat:7.5.0
+# https://www.docker.elastic.co/r/beats/filebeat
+FROM docker.elastic.co/beats/filebeat:7.11.0
 
 # Need to make the folder readable by the Root group
 USER root
